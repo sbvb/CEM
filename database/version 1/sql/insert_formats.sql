@@ -1,0 +1,1 @@
+INSERT INTO tb_formats(name,extension) VALUES('jpeg','jpg');INSERT INTO tb_formats(name,extension) VALUES('gif','gif');INSERT INTO tb_formats(name,extension) VALUES('png','png');INSERT INTO tb_formats(name,extension) VALUES('pdf','pdf');SELECT * FROM tb_formats;

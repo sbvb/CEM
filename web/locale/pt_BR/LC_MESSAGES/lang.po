@@ -1,0 +1,907 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-03 14:42-0300\n"
+"PO-Revision-Date: 2011-11-03 14:43-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../constants.php:6
+msgid "CEM - "
+msgstr ""
+
+#: ../../../constants.php:7
+msgid "Login:"
+msgstr "Usuário:"
+
+#: ../../../constants.php:8
+msgid "Password:"
+msgstr "Senha:"
+
+#: ../../../constants.php:9
+msgid "login"
+msgstr "Logar"
+
+#: ../../../constants.php:10
+msgid "Hello,"
+msgstr "Olá,"
+
+#: ../../../constants.php:11
+msgid "help"
+msgstr "ajuda"
+
+#: ../../../constants.php:12
+msgid "new candidate"
+msgstr "novo candidato"
+
+#: ../../../constants.php:15
+msgid "Logout"
+msgstr "Sair"
+
+#: ../../../constants.php:16
+msgid "is"
+msgstr "é"
+
+#: ../../../constants.php:18
+msgid "manage"
+msgstr "gerenciamento"
+
+#: ../../../constants.php:19
+msgid "report"
+msgstr "relatório"
+
+#: ../../../constants.php:20
+msgid "payment"
+msgstr "pagamento"
+
+#: ../../../constants.php:21
+#: ../../../constants.php:230
+msgid "presence"
+msgstr "presença"
+
+#: ../../../constants.php:22
+#: ../../../constants.php:238
+msgid "grade"
+msgstr "nota"
+
+#: ../../../constants.php:23
+msgid "services"
+msgstr "serviços"
+
+#: ../../../constants.php:24
+msgid "logout"
+msgstr "sair"
+
+#: ../../../constants.php:26
+msgid "see login report"
+msgstr "ver relatório de login"
+
+#: ../../../constants.php:27
+msgid "manage person"
+msgstr "gerenciar pessoa"
+
+#: ../../../constants.php:28
+msgid "manage ambiance"
+msgstr "gerenciar ambiente"
+
+#: ../../../constants.php:29
+msgid "manage course"
+msgstr "gerenciar disciplina"
+
+#: ../../../constants.php:30
+msgid "manage schedule"
+msgstr "gerenciar schedule"
+
+#: ../../../constants.php:31
+msgid "manage class"
+msgstr "gerenciar turma"
+
+#: ../../../constants.php:32
+msgid "presence call"
+msgstr "efetuar chamada"
+
+#: ../../../constants.php:33
+msgid "assign student to class"
+msgstr "associar estudante e classe"
+
+#: ../../../constants.php:34
+msgid "manage school"
+msgstr "gerenciar escola"
+
+#: ../../../constants.php:35
+msgid "manage program"
+msgstr "gerenciar curso"
+
+#: ../../../constants.php:36
+msgid "manage datetime"
+msgstr "gerenciar datetime"
+
+#: ../../../constants.php:37
+msgid "associate course to program"
+msgstr "associar disciplina ao curso"
+
+#: ../../../constants.php:38
+msgid "manage class_course"
+msgstr "gerenciar turma_disciplina"
+
+#: ../../../constants.php:39
+msgid "manage enrollment"
+msgstr "gerenciar matrícula"
+
+#: ../../../constants.php:40
+msgid "associate ambiance to event"
+msgstr "Associar ambiente ao evento"
+
+#: ../../../constants.php:41
+msgid "assign grade"
+msgstr "preencher notas"
+
+#: ../../../constants.php:42
+msgid "see grade report"
+msgstr "ver relatório de notas"
+
+#: ../../../constants.php:43
+msgid "see presence report"
+msgstr "ver relatório de presença"
+
+#: ../../../constants.php:44
+msgid "perform payment"
+msgstr "efetuar pagamento"
+
+#: ../../../constants.php:45
+msgid "unlock class course"
+msgstr "desbloquear turma_disciplina"
+
+#: ../../../constants.php:46
+msgid "program_course report"
+msgstr "relatório de curso_disciplina"
+
+#: ../../../constants.php:47
+msgid "report card report"
+msgstr "relatório boletim escolar"
+
+#: ../../../constants.php:48
+msgid "historic school report"
+msgstr "relatório histórico escolar"
+
+#: ../../../constants.php:49
+msgid "statistical presence report"
+msgstr "relatório estatístico de presença"
+
+#: ../../../constants.php:50
+msgid "manage candidate"
+msgstr "gerenciar candidato"
+
+#: ../../../constants.php:51
+msgid "manage documents"
+msgstr "gerenciar documentos"
+
+#: ../../../constants.php:52
+msgid "manage candidates"
+msgstr "gerenciar candidatos"
+
+#: ../../../constants.php:53
+msgid "manage agreement template"
+msgstr "gerenciar modelo de contrato"
+
+#: ../../../constants.php:54
+msgid "manage interested"
+msgstr "gerenciar interessado"
+
+#: ../../../constants.php:55
+msgid "manage interesteds"
+msgstr "gerenciar interessados"
+
+#: ../../../constants.php:58
+msgid "is logging off"
+msgstr "está saindo"
+
+#: ../../../constants.php:61
+msgid "Login Report"
+msgstr "Relatório de login"
+
+#: ../../../constants.php:62
+msgid "Date"
+msgstr "Data"
+
+#: ../../../constants.php:63
+msgid "User name"
+msgstr "Nome de usuário"
+
+#: ../../../constants.php:64
+msgid "Event"
+msgstr "Evento"
+
+#: ../../../constants.php:65
+msgid "logout (clicked)"
+msgstr "logout (clicado)"
+
+#: ../../../constants.php:66
+msgid "logout (timeout)"
+msgstr "logout (expirado)"
+
+#: ../../../constants.php:69
+msgid "Manage person"
+msgstr "Gerenciar pessoa"
+
+#: ../../../constants.php:70
+msgid "create new person"
+msgstr "criar nova pessoa"
+
+#: ../../../constants.php:71
+msgid "Actor:"
+msgstr "Ator:"
+
+#: ../../../constants.php:72
+msgid "select..."
+msgstr "selecionar..."
+
+#: ../../../constants.php:73
+msgid "User group"
+msgstr "Ator"
+
+#: ../../../constants.php:74
+msgid "change password"
+msgstr "alterar senha"
+
+#: ../../../constants.php:75
+msgid "edit"
+msgstr "editar"
+
+#: ../../../constants.php:76
+msgid "delete"
+msgstr "deletar"
+
+#: ../../../constants.php:79
+msgid "Create person account"
+msgstr "Criar conta de pessoa"
+
+#: ../../../constants.php:80
+msgid "Edit person account"
+msgstr "Editar conta de pessoa"
+
+#: ../../../constants.php:81
+msgid "Full name:"
+msgstr "Nome completo:"
+
+#: ../../../constants.php:82
+msgid "telephone:"
+msgstr "telefone:"
+
+#: ../../../constants.php:83
+msgid "password:"
+msgstr "Senha:"
+
+#: ../../../constants.php:84
+msgid "password confirmation:"
+msgstr "confirmação de senha:"
+
+#: ../../../constants.php:85
+msgid "school:"
+msgstr "escola:"
+
+#: ../../../constants.php:86
+msgid "Obs (optional):"
+msgstr "Obs (opcional):"
+
+#: ../../../constants.php:87
+#: ../../../constants.php:89
+msgid "back"
+msgstr "voltar"
+
+#: ../../../constants.php:88
+msgid "clear"
+msgstr "limpar"
+
+#: ../../../constants.php:90
+msgid "create"
+msgstr "criar"
+
+#: ../../../constants.php:91
+msgid "save"
+msgstr "salvar"
+
+#: ../../../constants.php:92
+msgid "Current user:"
+msgstr "Usuário corrente:"
+
+#: ../../../constants.php:95
+msgid "Reset Password"
+msgstr "Resetar Senha"
+
+#: ../../../constants.php:98
+msgid "Manage ambiance"
+msgstr "Gerenciar ambiente"
+
+#: ../../../constants.php:99
+msgid "create new ambiance"
+msgstr "criar novo ambiente"
+
+#: ../../../constants.php:100
+msgid "ambiance name"
+msgstr "ambiente"
+
+#: ../../../constants.php:101
+msgid "max students"
+msgstr "máximo de alunos"
+
+#: ../../../constants.php:104
+msgid "Create ambiance"
+msgstr "Criar ambiente"
+
+#: ../../../constants.php:105
+msgid "Edit ambiance"
+msgstr "Editar ambiente"
+
+#: ../../../constants.php:106
+msgid "Current ambiance:"
+msgstr "Ambiente corrente:"
+
+#: ../../../constants.php:109
+msgid "Manage course"
+msgstr "Gerenciar disciplina"
+
+#: ../../../constants.php:110
+msgid "create new course"
+msgstr "criar nova disciplina"
+
+#: ../../../constants.php:111
+msgid "course name"
+msgstr "disciplina"
+
+#: ../../../constants.php:112
+msgid "code"
+msgstr "código"
+
+#: ../../../constants.php:115
+msgid "Create course"
+msgstr "Criar disciplina"
+
+#: ../../../constants.php:116
+msgid "Edit course"
+msgstr "Editar disciplina"
+
+#: ../../../constants.php:117
+msgid "Current course:"
+msgstr "Disciplina corrente:"
+
+#: ../../../constants.php:120
+msgid "Manage schedule"
+msgstr "Gerenciar schedule"
+
+#: ../../../constants.php:121
+msgid "create new schedule"
+msgstr "criar novo schedule"
+
+#: ../../../constants.php:122
+msgid "schedule name"
+msgstr "schedule"
+
+#: ../../../constants.php:125
+msgid "Create schedule"
+msgstr "Criar schedule"
+
+#: ../../../constants.php:126
+msgid "Edit schedule"
+msgstr "Editar schedule"
+
+#: ../../../constants.php:127
+msgid "Current schedule"
+msgstr "Schedule corrente"
+
+#: ../../../constants.php:130
+msgid "Manage class"
+msgstr "Gerenciar turma"
+
+#: ../../../constants.php:131
+msgid "create new class"
+msgstr "Criar nova turma"
+
+#: ../../../constants.php:132
+msgid "class name"
+msgstr "turma"
+
+#: ../../../constants.php:135
+msgid "Create class"
+msgstr "Criar turma"
+
+#: ../../../constants.php:138
+msgid "Manage program"
+msgstr "Gerenciar curso"
+
+#: ../../../constants.php:139
+msgid "create new program"
+msgstr "Criar novo curso"
+
+#: ../../../constants.php:140
+msgid "program name"
+msgstr "curso"
+
+#: ../../../constants.php:141
+msgid "value"
+msgstr "valor"
+
+#: ../../../constants.php:142
+msgid "description"
+msgstr "descrição"
+
+#: ../../../constants.php:145
+msgid "Edit program"
+msgstr "Editar curso"
+
+#: ../../../constants.php:146
+msgid "Create program"
+msgstr "Criar curso"
+
+#: ../../../constants.php:147
+msgid "Current program:"
+msgstr "Curso corrente:"
+
+#: ../../../constants.php:150
+msgid "Manage datetime"
+msgstr "Gerenciar datetime"
+
+#: ../../../constants.php:151
+msgid "create new datetime"
+msgstr "criar novo datetime"
+
+#: ../../../constants.php:152
+msgid "view"
+msgstr "visualizar"
+
+#: ../../../constants.php:153
+msgid "date"
+msgstr "data"
+
+#: ../../../constants.php:154
+msgid "time begin"
+msgstr "hora de início"
+
+#: ../../../constants.php:155
+msgid "time end"
+msgstr "hora de término"
+
+#: ../../../constants.php:156
+msgid "schedule"
+msgstr "schedule"
+
+#: ../../../constants.php:159
+msgid "Create datetime"
+msgstr "Criar datetime"
+
+#: ../../../constants.php:162
+msgid "Show datetime"
+msgstr "Visualizar datetime"
+
+#: ../../../constants.php:165
+msgid "Manage program_course"
+msgstr "Gerenciar curso_disciplina"
+
+#: ../../../constants.php:168
+msgid "Associate \""
+msgstr "Associar \""
+
+#: ../../../constants.php:169
+msgid "\" to course"
+msgstr "\" e disciplinas"
+
+#: ../../../constants.php:170
+msgid "is associated"
+msgstr "associado"
+
+#: ../../../constants.php:171
+msgid "is not associated"
+msgstr "não associado"
+
+#: ../../../constants.php:172
+msgid "associate"
+msgstr "associar"
+
+#: ../../../constants.php:175
+msgid "Select class_course"
+msgstr "Selecionar turma_disciplina"
+
+#: ../../../constants.php:176
+#: ../../../constants.php:182
+msgid "class"
+msgstr "turma"
+
+#: ../../../constants.php:179
+msgid "Class_courses of"
+msgstr "turma_disciplinas de"
+
+#: ../../../constants.php:180
+msgid "course"
+msgstr "disciplina"
+
+#: ../../../constants.php:181
+msgid "manage Ok"
+msgstr "gerenciamento Ok"
+
+#: ../../../constants.php:185
+msgid "Manage class_course"
+msgstr "Gerenciar turma_disciplina"
+
+#: ../../../constants.php:186
+msgid "tutor"
+msgstr "tutor"
+
+#: ../../../constants.php:189
+msgid "time"
+msgstr "horário"
+
+#: ../../../constants.php:192
+msgid "Manage enrollment"
+msgstr "Gerenciar matrícula"
+
+#: ../../../constants.php:193
+msgid "select program"
+msgstr "selecionar curso"
+
+#: ../../../constants.php:194
+msgid "select class"
+msgstr "Selecionar turma"
+
+#: ../../../constants.php:197
+msgid "Associate student to enrollment"
+msgstr "Associar estudante à matrícula"
+
+#: ../../../constants.php:200
+msgid "Associate ambiance to event"
+msgstr "Associar ambiente ao evento"
+
+#: ../../../constants.php:201
+msgid "select course"
+msgstr "selecionar disciplina"
+
+#: ../../../constants.php:202
+msgid "select schedule"
+msgstr "selecionar schedule"
+
+#: ../../../constants.php:205
+msgid "Associate event of"
+msgstr "Associar evento de"
+
+#: ../../../constants.php:206
+msgid "Set All ambiances"
+msgstr "Setar todos os ambientes"
+
+#: ../../../constants.php:207
+#, fuzzy
+msgid "ambiance"
+msgstr "ambiente"
+
+#: ../../../constants.php:210
+msgid "Fill event"
+msgstr "Preencher evento"
+
+#: ../../../constants.php:213
+msgid "Perform payment"
+msgstr "Efetuar pagamento"
+
+#: ../../../constants.php:214
+msgid "student"
+msgstr "estudante"
+
+#: ../../../constants.php:215
+msgid "select student"
+msgstr "selecionar estudante"
+
+#: ../../../constants.php:218
+msgid "Unlock class_course"
+msgstr "Desbloquear turma_disciplina"
+
+#: ../../../constants.php:221
+msgid "You do not have permission to access this page."
+msgstr "Você não tem permissão para acessar esta página."
+
+#: ../../../constants.php:224
+msgid "Presence call"
+msgstr "Efetuar chamada"
+
+#: ../../../constants.php:227
+msgid "add comments"
+msgstr "adicionar comentários"
+
+#: ../../../constants.php:233
+msgid "Event comments"
+msgstr "Comentários do evento"
+
+#: ../../../constants.php:234
+msgid "comments"
+msgstr "comentários"
+
+#: ../../../constants.php:237
+msgid "Assign grade"
+msgstr "Preencher notas"
+
+#: ../../../constants.php:239
+msgid "Grade already assigned and class was finished"
+msgstr "Notas já foram lançadas e a turma foi fechada"
+
+#: ../../../constants.php:242
+msgid "Grade Report"
+msgstr "Relatório de notas"
+
+#: ../../../constants.php:245
+msgid "situation"
+msgstr "situação"
+
+#: ../../../constants.php:246
+msgid "approved"
+msgstr "aprovado"
+
+#: ../../../constants.php:247
+msgid "failed"
+msgstr "reprovado"
+
+#: ../../../constants.php:250
+msgid "Presence report"
+msgstr "Relatório de presença"
+
+#: ../../../constants.php:253
+msgid "Manage school"
+msgstr "Gerenciar escola"
+
+#: ../../../constants.php:254
+msgid "create new school"
+msgstr "Criar nova escola"
+
+#: ../../../constants.php:255
+msgid "school name"
+msgstr "escola"
+
+#: ../../../constants.php:258
+msgid "Create school"
+msgstr "Criar escola"
+
+#: ../../../constants.php:259
+msgid "Edit school"
+msgstr "Editar escola"
+
+#: ../../../constants.php:260
+msgid "current school"
+msgstr "escola corrente:"
+
+#: ../../../constants.php:263
+msgid "Program_course report"
+msgstr "Relatório de curso_disciplina"
+
+#: ../../../constants.php:266
+msgid "Create datetimes"
+msgstr "Criar datetimes"
+
+#: ../../../constants.php:267
+msgid "day"
+msgstr "dia"
+
+#: ../../../constants.php:268
+msgid "sunday"
+msgstr "domingo"
+
+#: ../../../constants.php:269
+msgid "monday"
+msgstr "segunda-feira"
+
+#: ../../../constants.php:270
+msgid "tuesday"
+msgstr "terça-feira"
+
+#: ../../../constants.php:271
+msgid "wednesday"
+msgstr "quarta-feira"
+
+#: ../../../constants.php:272
+msgid "thursday"
+msgstr "quinta-feira"
+
+#: ../../../constants.php:273
+msgid "friday"
+msgstr "sexta-feira"
+
+#: ../../../constants.php:274
+msgid "saturday"
+msgstr "sábado"
+
+#: ../../../constants.php:275
+msgid "date begin"
+msgstr "data inicial"
+
+#: ../../../constants.php:276
+msgid "date end"
+msgstr "data final"
+
+#: ../../../constants.php:279
+msgid "Report card report"
+msgstr "Relatório boletim escolar"
+
+#: ../../../constants.php:282
+msgid "Historic school report"
+msgstr "Relatório histórico escolar"
+
+#: ../../../constants.php:285
+msgid "Statistical presence report"
+msgstr "Relatório estatístico de presença"
+
+#: ../../../constants.php:286
+msgid "frequency"
+msgstr "frequência"
+
+#: ../../../constants.php:287
+msgid "total classes"
+msgstr "total de aulas"
+
+#: ../../../constants.php:290
+msgid "New candidate"
+msgstr "Novo candidato"
+
+#: ../../../constants.php:293
+msgid "Manage candidate"
+msgstr "Gerenciar candidato"
+
+#: ../../../constants.php:294
+msgid "add photo"
+msgstr "adicionar foto"
+
+#: ../../../constants.php:295
+msgid "download agreement"
+msgstr "download do contrato"
+
+#: ../../../constants.php:298
+msgid "Edit candidate account"
+msgstr "Editar conta de candidato"
+
+#: ../../../constants.php:299
+msgid "address"
+msgstr "endereço"
+
+#: ../../../constants.php:300
+msgid "district"
+msgstr "bairro"
+
+#: ../../../constants.php:301
+msgid "city"
+msgstr "cidade"
+
+#: ../../../constants.php:302
+msgid "state"
+msgstr "estado"
+
+#: ../../../constants.php:303
+msgid "zip code"
+msgstr "CEP"
+
+#: ../../../constants.php:304
+msgid "civil status"
+msgstr "estado civil"
+
+#: ../../../constants.php:305
+msgid "career"
+msgstr "profissão"
+
+#: ../../../constants.php:306
+msgid "identity"
+msgstr "identidade"
+
+#: ../../../constants.php:307
+msgid "issued by"
+msgstr "órgão emissor"
+
+#: ../../../constants.php:310
+msgid "current password"
+msgstr "senha atual"
+
+#: ../../../constants.php:311
+msgid "new password"
+msgstr "nova senha"
+
+#: ../../../constants.php:312
+msgid "new password confirmation"
+msgstr "confirmação de nova senha"
+
+#: ../../../constants.php:315
+msgid "Add Photo"
+msgstr "Adicionar foto"
+
+#: ../../../constants.php:318
+msgid "Upload photo"
+msgstr "Upload foto"
+
+#: ../../../constants.php:319
+msgid "description (optional)"
+msgstr "descrição (opcional)"
+
+#: ../../../constants.php:320
+msgid "image"
+msgstr "imagem"
+
+#: ../../../constants.php:323
+msgid "View candidate"
+msgstr "Visualizar candidato"
+
+#: ../../../constants.php:326
+msgid "Manage documents"
+msgstr "Gerenciar documentos"
+
+#: ../../../constants.php:327
+msgid "upload document"
+msgstr "upload de documento"
+
+#: ../../../constants.php:330
+msgid "Upload document"
+msgstr "Upload de documento"
+
+#: ../../../constants.php:333
+msgid "fullname"
+msgstr "nome completo"
+
+#: ../../../constants.php:334
+msgid "documents"
+msgstr "documentos"
+
+#: ../../../constants.php:335
+msgid "complete registration"
+msgstr "finalizar matrícula"
+
+#: ../../../constants.php:338
+msgid "Manage agreement template"
+msgstr "Gerenciar modelo de contrato"
+
+#: ../../../constants.php:339
+msgid "upload agreement template"
+msgstr "upload de modelo de contrato"
+
+#: ../../../constants.php:342
+msgid "Upload agreement template"
+msgstr "Upload de modelo de contrato"
+
+#: ../../../constants.php:343
+msgid "name"
+msgstr "nome"
+
+#: ../../../constants.php:346
+msgid "Manage interested"
+msgstr "Gerenciar interessado"
+
+#: ../../../constants.php:349
+msgid "Edit interested account"
+msgstr "Editar conta de interessado"
+
+#: ../../../constants.php:352
+msgid "View interested"
+msgstr "Visualizar interessado"
+
+#: ../../../constants.php:355
+msgid "change to candidate"
+msgstr "mudar para candidato"
+
+#: ../../../poli/constants.php:336
+msgid "set payment"
+msgstr "definir forma de pagamento"
+
+#: ../../../poli/constants.php:357
+msgid "registry type"
+msgstr "tipo de cadastro"
+
+#: ../../../poli/constants.php:358
+msgid "telephone"
+msgstr "telefone"
+
+#~ msgid "manage event"
+#~ msgstr "gerenciar evento"
+
+#~ msgid "CEM - Cloud Education Management"
+#~ msgstr "CEM - Gerenciamento Educacional em Nuvem"
+
+#~ msgid "associate class to course"
+#~ msgstr "associar turma à disciplina"

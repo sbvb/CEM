@@ -1,0 +1,35 @@
+/* CSS Document */
+<style type="text/css">
+<!--
+body,td,th {
+	color: #000000;
+}
+body {
+	background-color: #CCFF33;
+}
+a:link {
+	color: #0099FF;
+}
+a:hover {
+	color: #0000FF;
+}
+
+table{
+	border:none;
+	border-collapse:collapse;
+	background:#FFFFFF;
+	text-align:center;
+}
+td{
+	padding: 10px;
+	background:#FFFFFF;
+}
+
+table a{
+    color:#003333;
+	text-decoration:underline;
+}
+
+-->
+</style>
+

@@ -1,0 +1,4 @@
+Installation of doua
+====================
+
+- Place mysql-connector-java-5.1.6-bin.jar located at <netbeans>/ide/modules/ext in <tomcat>/lib.

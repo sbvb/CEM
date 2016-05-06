@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+  <title name="home">
+    <link>home.php</link>
+  </title>
+  <title name="manage">
+    <item name="manage person">
+      <link>man_person.php</link>
+    </item>
+    <item name="manage ambiance">
+      <link>man_ambience.php</link>
+    </item>
+    <item name="manage course">
+      <link>man_course.php</link>
+    </item>
+    <item name="manage schedule">
+      <link>man_schedule.php</link>
+    </item>
+    <item name="manage class">
+      <link>man_class.php</link>
+    </item>
+    <item name="manage program">
+      <link>man_program.php</link>
+    </item>
+    <item name="manage datetime">
+      <link>man_datetime.php</link>
+    </item>
+    <item name="manage class_course">
+      <link>man_class_course.php</link>
+    </item>
+    <item name="manage enrollment">
+      <link>man_enrollment.php</link>
+    </item>
+  </title>
+  <title name="report">
+    <item name="see login report">
+      <link>login_report.php</link>
+    </item>
+    <item name="program_course report">
+      <link>show_program_course_report.php</link>
+    </item>
+  </title>
+  <title name="payment">
+    <item name="perform payment">
+      <link>perform_payment.php</link>
+    </item>
+  </title>
+  <title name="services">
+    <item name="associate course to program">
+      <link>man_prog_course.php</link>
+    </item>
+    <item name="associate ambiance to event">
+      <link>man_event.php</link>
+    </item>
+    <item name="unlock class course">
+      <link>unlock_class_course.php</link>
+    </item>
+  </title>
+  <title name="help">
+    <link>help.php</link>
+  </title>
+</menu>

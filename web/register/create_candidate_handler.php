@@ -1,0 +1,37 @@
+<?php
+//create_candidate_handler.php
+
+	//date_default_timezone_set('America/Sao_Paulo');
+	//create_candidate_handler.php?login=name&name=newFullname&email=email&scid=scid	
+	$email		= $_REQUEST['email'];
+	$tel		= $_REQUEST['tel'];
+	$scname		= $_REQUEST['scname'];
+		
+	include("../conf/configuration.php");
+	$conf = new Configuration();
+	$host = $conf->get_host();
+	
+	$newName = str_replace(" ", "%20", $scname);				
+				
+	$url = "$host/axis2/services/ws_ems/register_new_candidate_to_school?email=$email&telephone=$tel&scname=$newName&uid=&reg_type=web";
+	//echo $url;
+	$myfile = fopen($url, "r")
+       		or die("died when doing OPEN ws_doua_ems.register_new_candidate");
+	$allLines = "";
+	while ($currline = fread($myfile,1024))
+		$allLines .= $currline; // concat currline to allLines
+	fclose($myfile) or die("died when doing CLOSE");;
+	// parse XML
+	$xmlDoc = new DOMDocument();
+	$xmlDoc->loadXML($allLines);
+
+	$userCreated = "false";
+	$xmlElem = $xmlDoc->getElementsByTagName("return"); // not "ns:return"
+	$cnt = $xmlElem->length;
+	for($i = 0; $i < $cnt ; $i++) {
+		$xmlNode = $xmlElem->item($i)->nodeValue;		
+	}
+	$userCreated = $xmlNode; 
+	
+	echo $userCreated;
+?>

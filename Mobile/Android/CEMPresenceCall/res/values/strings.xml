@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, CEMPresenceCallActivity!</string>
+    <string name="app_name">CEM - Presence call</string>
+    <string name="Author">Vinícius Heineck dos Santos</string>
+    <string name="version">2011_12_02__19_53_42</string>
+
+</resources>

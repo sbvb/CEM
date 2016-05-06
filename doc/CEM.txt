@@ -1,0 +1,38 @@
+English - Portugues
+
+// CEM Main Entities
+Program - Curso
+Course - Disciplina
+Class - turma
+
+class-course = turma_disciplina (instância de turma)
+a presença existe numa class-course
+
+
+
+
+
+Example:
+Program: Gastronomy full, Gastronomy simple
+Courses: salt food, sweet food, pasta food, japanese food
+Class: 2014_2
+
+
+
+program Gastronomy full: salt food, sweet food, pasta food, japanese food 
+
+program Gastronomy simple: salt food, pasta food
+
+class-course: "salt food of 2014_2", "sweet food of 2014_2", "pasta food 2014_2", "japanese food 2014_2"
+
+The students enrolls to a class
+
+The students attends to a class-course
+
+A class-course has a schedule
+
+a class belongs to a program
+
+
+
+

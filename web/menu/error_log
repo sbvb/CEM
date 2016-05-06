@@ -1,0 +1,10 @@
+[15-Aug-2011 15:54:12] PHP Parse error:  syntax error, unexpected '[' in /home1/selectos/public_html/ems/menu/menu_generator.php on line 25
+[15-Aug-2011 16:08:17] PHP Parse error:  syntax error, unexpected '[' in /home1/selectos/public_html/ems/menu/menu_generator.php on line 34
+[15-Aug-2011 16:09:05] PHP Parse error:  syntax error, unexpected '[' in /home1/selectos/public_html/ems/menu/menu_generator.php on line 34
+[15-Aug-2011 16:09:43] PHP Parse error:  syntax error, unexpected '[' in /home1/selectos/public_html/ems/menu/menu_generator.php on line 36
+[15-Aug-2011 16:10:32] PHP Parse error:  syntax error, unexpected '[' in /home1/selectos/public_html/ems/menu/menu_generator.php on line 55
+[15-Aug-2011 16:11:06] PHP Warning:  fopen(/axis2/services/ws_doua_ems/get_resources?username=admin2&amp;cookie=5a6503b6873ca712b009349e6179dd4a&amp;ip=187.33.19.126) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home1/selectos/public_html/ems/menu/menu_generator.php on line 11
+[15-Aug-2011 16:12:28] PHP Warning:  Invalid argument supplied for foreach() in /home1/selectos/public_html/ems/menu/menu_generator.php on line 158
+[15-Aug-2011 16:12:28] PHP Warning:  Invalid argument supplied for foreach() in /home1/selectos/public_html/ems/menu/menu_generator.php on line 175
+[15-Aug-2011 16:14:18] PHP Warning:  Invalid argument supplied for foreach() in /home1/selectos/public_html/ems/menu/menu_generator.php on line 153
+[15-Aug-2011 16:14:18] PHP Warning:  Invalid argument supplied for foreach() in /home1/selectos/public_html/ems/menu/menu_generator.php on line 170

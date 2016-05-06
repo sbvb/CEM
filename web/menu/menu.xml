@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+  <title name="home">
+    <link>home.php</link>
+  </title>
+  <title name="report">
+    <item name="see login report">
+      <link>login_report.php</link>
+    </item>
+    <item name="see grade report">
+      <link>grade_report.php</link>
+    </item>
+    <item name="see presence report">
+      <link>presence_report.php</link>
+    </item>
+    <item name="program_course report">
+      <link>show_program_course_report.php</link>
+    </item>
+  </title>
+  <title name="payment">
+    <item name="perform payment">
+      <link>perform_payment.php</link>
+    </item>
+  </title>
+  <title name="presence">
+    <item name="presence call">
+      <link>answer_presence.php</link>
+    </item>
+  </title>
+  <title name="grade">
+    <item name="assign grade">
+      <link>assign_grade.php</link>
+    </item>
+  </title>
+  <title name="services">
+    <item name="associate course to program">
+      <link>man_prog_course.php</link>
+    </item>
+    <item name="associate ambiance to event">
+      <link>man_event.php</link>
+    </item>
+    <item name="unlock class course">
+      <link>unlock_class_course.php</link>
+    </item>
+  </title>
+  <title name="help">
+    <link>help.php</link>
+  </title>
+</menu>

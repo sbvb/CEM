@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cloudeducationmanagement.CEMPresenceCall.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <ImageView
+        android:id="@+id/filprerowImgAvatar"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_gravity="left"
+        android:layout_marginRight="10px"
+        android:ellipsize="marquee"
+        android:src="@drawable/no_image_male"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+	<CheckedTextView
+	    android:id="@+id/filprerowLblName"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+	    android:checked="false"
+	    android:ellipsize="marquee"
+	    android:gravity="center_vertical"
+	    android:text="vinicius"
+	    android:textSize="14sp" />
+		
+</com.cloudeducationmanagement.CEMPresenceCall.CheckableLinearLayout>
